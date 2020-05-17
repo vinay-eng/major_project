@@ -44,6 +44,9 @@ example:- USB_PORT='/dev/ttyUSB0'
  For Linux: Run command
  $ npm run build    // It will create file dist
  $ npm run deb64    // It will create installer in dist/installers
+ 
+ 
+  Install app_1.0.0_amd64.deb
  ```
  
  ```
