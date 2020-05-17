@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #588b8b
+}
+.center{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.inp{
+  width: 100%;
+  padding: 10px
+}
+label{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+input{
+  outline: none;
+  height: 20px;
+  border-bottom: solid 2px #577590
+}
+button{
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ff6b6b;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 100%;
+  margin: 10px
+}
