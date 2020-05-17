@@ -1,40 +1,58 @@
-Project Title
-One Paragraph of project description goes here
+# Major Project
 
-Getting Started
+This is an desktop application for dynamic shaker
+
+## Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
-What things you need to install the software and how to install them
+### Prerequisites
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+Install Node.js
+```
+  Refer - https://nodejs.org/en/
+ ```
 
-Say what the step will be
+### Installation
 
-Give the example
-And repeat
+Clone this project or download zip
+```
+Open terminal in project directory
+```
+```
+Run command 
+$ npm i electron electron-packager asar electron-installer-debian electron-rebuild --save-dev
+$ npm i dotenv serialport --save
+    
+```
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+```
+Run command each time you install a new package
+$ npm install
+```
 
-Running the tests
-Explain how to run the automated tests for this system
+## Running the tests
 
-Break down into end to end tests
-Explain what these tests test and why
+```
+Before running test change your USB port in config.env
+example:- USB_PORT='/dev/ttyUSB0'
+```
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+## Deployment
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+ ```
+ For Linux: Run command
+ $ npm run build    // It will create file dist
+ $ npm run deb64    // It will create installer in dist/installers
+ ```
+ 
+ ```
+ For mac and windows 
+ Refer https://www.christianengvall.se/electron-packager-tutorial/
+ ```
+## Holder Design 
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
+  ```
+  Desing are made in CorelDraw 
+  ```
+
